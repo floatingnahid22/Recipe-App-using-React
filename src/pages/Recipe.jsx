@@ -58,8 +58,8 @@ function Recipe() {
 }
 
 const DetailWrapper = styled.div`
-  margin-top: 5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 6rem;
+  margin-bottom: 10rem;
   display: flex;
   .active {
     background: linear-gradient(35deg, #494949, #313131);
@@ -68,8 +68,16 @@ const DetailWrapper = styled.div`
   h2 {
     margin-bottom: 2rem;
   }
+  h3 {
+    font-size: 0.8rem;
+  }
+  img {
+    padding: -2rem;
+    width: 350px;
+    border-radius: 2rem;
+  }
   li {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     line-height: 2.5rem;
   }
   ul {
