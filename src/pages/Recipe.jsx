@@ -58,8 +58,8 @@ function Recipe() {
 }
 
 const DetailWrapper = styled.div`
-  margin-top: 10rem;
-  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
   display: flex;
   .active {
     background: linear-gradient(35deg, #494949, #313131);
@@ -82,7 +82,7 @@ const Button = styled.button`
   color: #313131;
   background: white;
   border: 2px solid black;
-  margin-right: 2rem;
+  margin-right: 1rem;
   font-weight: 600;
 `;
 
